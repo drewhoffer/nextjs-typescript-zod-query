@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "engines": {
-    "node": "16.19.x",
+    "node": ">=18.17.x",
     "yarn": "please-use-npm",
-    "npm": ">=9.2.0"
+    "npm": ">=8.2.0"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -27,6 +28,7 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
+    "husky": "^9.0.10",
     "lint-staged": "^15.2.2",
     "postcss": "^8",
     "prettier": "^3.2.5",
